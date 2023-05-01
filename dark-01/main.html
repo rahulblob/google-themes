@@ -1,0 +1,157 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Tab</title>
+  <style>
+.tolL,.tools,header .items{transition:width .2s,padding .2s}.tolL:hover,.tools,header .items{border-radius:8px;background:var(--semi-bg)}.items,.suggestions,.tools{position:absolute}.suggestions a,header a,header a:hover{text-decoration:none}.shortcut ul li,.tolL:hover,.tools,button[type=submit],header .items,input[type=text]{background:var(--semi-bg)}.cursor,.tools{top:20px;left:20px}.menu,.outerMenu,.suggestions{opacity:0;visibility:hidden}*{margin:0;padding:0}:root{--bg:#000;--semi-bg:hsl(0 0% 100% / .1);--text:#eee}body{font-family:'Gill Sans','Gill Sans MT',Calibri,'Trebuchet MS',sans-serif;background:var(--bg);-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.tools span a:hover{text-decoration:none!important}.penTools{cursor:pointer}header{padding:20px;display:flex;justify-content:end;align-items:center}.tools,header .items{display:inline-flex;justify-content:center;align-items:center;gap:15px;width:fit-content;padding:10px 20px;color:var(--text)}.search,.search form,.titleH{display:flex}header img{border-radius:50%}header a{color:var(--text);font-size:15px;font-weight:500}.tolL:hover{padding:8px 15px}.items{right:20px;top:20px}.search{align-items:center;justify-content:center;margin-top:100px}.titleH,button[type=submit]{align-items:center;color:var(--text)}input[type=text]{border:none;padding:15px 20px;font-size:16px;border-radius:8px 0 0 8px;color:var(--text);transition:box-shadow .1s ease-in-out;width:410px}button[type=submit]{display:inline-flex;justify-content:center;border-radius:0 8px 8px 0;padding:15px;font-size:16px;cursor:pointer;border:none;border-left:1px solid #1f1f1f;transition:border-radius .2s}button[type=submit]:focus,input[type=text]:focus{outline:0}.suggestions{margin-top:50px;width:417px;background:#1c1c1c;backdrop-filter:blur(35px);padding:15px 20px;border-radius:8px;transition:margin-top .2s,opacity .2s;z-index:100}.cursor,.menu,.outerMenu{position:fixed}.suggestions ul{display:grid;gap:10px}.suggestions ul li{list-style:none;border-bottom:1px solid var(--semi-bg);padding:10px 20px;transition:opacity .2s}.suggestions ul li a:hover{opacity:.6}.suggestions a{color:var(--text);font-size:16px}.squery:focus~.suggestions,.suggestions:hover{margin-top:70px;opacity:1;visibility:visible}.titleH{text-align:center;margin-top:100px;margin-bottom:-65px;justify-content:center}.shortcut a,.shortcut ul li{align-items:center;gap:10px;display:inline-flex}.titleH h1{font-size:80px;font-weight:500}.menu a,.shortcut a{text-decoration:none;font-size:17px}.i0,.i1,.i2,.i3,.i4,.i5{animation:.8s infinite glow;user-select:none;cursor:pointer}.i0{animation-delay:50ms}.i1{animation-delay:.1s}.i2{animation-delay:.2s}.i3{animation-delay:.3s}.i4{animation-delay:.4s}.i5{animation-delay:.5s}@keyframes glow{0%{color:red;text-shadow:0 0 70px red}10%{color:#ff0;text-shadow:0 0 70px #ff0}20%{color:green;text-shadow:0 0 70px green}50%{color:#00f;text-shadow:0 0 70px #00f}70%{color:#0ff;text-shadow:0 0 70px #0ff}100%{color:pink;text-shadow:0 0 70px pink}}.shortcut{margin-top:60px;display:grid;place-items:center}.shortcut ul li{list-style:none;border-radius:8px;padding:0 15px;height:60px;transition:box-shadow .1s ease-in-out;backdrop-filter:blur(100px)}.shortcut ul li:hover,input[type=text]:hover{z-index:1000;box-shadow:0 0 200px #2e0394}.menu svg,.shortcut svg{height:20px;width:20px}.shortcut a{color:var(--text);width:100%;justify-content:space-between}.shortcut a:hover{text-decoration:underline}.shortcut ul{margin-left:-1px;display:grid;grid-template-columns:auto auto auto;gap:15px}.cursor{height:50px;width:50px;background:#2e0394;border-radius:50%;filter:blur(30px);z-index:-10}.bi-whatsapp{color:green}.bi-github{color:grey}.bi-youtube{color:red}.bi-stack-overflow{color:#8d5f0a}.bi-cloud{color:#5757a5}.bi-fire{color:#ff7300}.menu,.menu a{color:var(--text)}.menu{background:var(--semi-bg);backdrop-filter:blur(20px);width:max-content;padding:10px 17px;border-radius:8px;top:50%;left:50%;z-index:10000;transform:scale(0);transform-origin:top left;transition:opacity .2s ease-in-out,transform .2s ease-in-out}.outerMenu{height:100%;width:100%;z-index:9999;background:rgba(0,0,0,.5);transition:opacity .2s ease-in-out,visibility .2s ease-in-out}.menu a{font-weight:400}.menu ul li{list-style:none;margin:10px;display:inline-flex;align-items:center;justify-content:center;gap:20px}.hr{height:1px;width:100%;background:var(--semi-bg)}  
+  </style>
+</head>
+
+<body>
+
+    <div class="menu">
+        <ul>
+            <li><svg xmlns="https://www.w3.org/2000/svg" width="16" height="16"
+                fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                <path
+                    d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+            </svg><a target="_blank" href="https://github.com/new">New Repositories</a></li>
+            <div class="hr"></div>
+            <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-code" viewBox="0 0 16 16">
+                <path d="M5.854 4.854a.5.5 0 1 0-.708-.708l-3.5 3.5a.5.5 0 0 0 0 .708l3.5 3.5a.5.5 0 0 0 .708-.708L2.707 8l3.147-3.146zm4.292 0a.5.5 0 0 1 .708-.708l3.5 3.5a.5.5 0 0 1 0 .708l-3.5 3.5a.5.5 0 0 1-.708-.708L13.293 8l-3.147-3.146z"/>
+              </svg><a target="_blank" href="https://pen.new">New Codepen</a></li>
+            <div class="hr"></div>
+            <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-folder" viewBox="0 0 16 16">
+                <path d="M.54 3.87.5 3a2 2 0 0 1 2-2h3.672a2 2 0 0 1 1.414.586l.828.828A2 2 0 0 0 9.828 3h3.982a2 2 0 0 1 1.992 2.181l-.637 7A2 2 0 0 1 13.174 14H2.826a2 2 0 0 1-1.991-1.819l-.637-7a1.99 1.99 0 0 1 .342-1.31zM2.19 4a1 1 0 0 0-.996 1.09l.637 7a1 1 0 0 0 .995.91h10.348a1 1 0 0 0 .995-.91l.637-7A1 1 0 0 0 13.81 4H2.19zm4.69-1.707A1 1 0 0 0 6.172 2H2.5a1 1 0 0 0-1 .981l.006.139C1.72 3.042 1.95 3 2.19 3h5.396l-.707-.707z"/>
+              </svg><a target="_blank" href="https://replit.com">New Repl</a></li>
+            <div class="hr"></div>
+            <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chat" viewBox="0 0 16 16">
+                <path d="M2.678 11.894a1 1 0 0 1 .287.801 10.97 10.97 0 0 1-.398 2c1.395-.323 2.247-.697 2.634-.893a1 1 0 0 1 .71-.074A8.06 8.06 0 0 0 8 14c3.996 0 7-2.807 7-6 0-3.192-3.004-6-7-6S1 4.808 1 8c0 1.468.617 2.83 1.678 3.894zm-.493 3.905a21.682 21.682 0 0 1-.713.129c-.2.032-.352-.176-.273-.362a9.68 9.68 0 0 0 .244-.637l.003-.01c.248-.72.45-1.548.524-2.319C.743 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7-3.582 7-8 7a9.06 9.06 0 0 1-2.347-.306c-.52.263-1.639.742-3.468 1.105z"/>
+              </svg><a target="_blank" href="https://chat.openai.com">New Chat</a></li>
+        </ul>
+    </div>
+    <div class="outerMenu"></div>
+
+    <header>
+        <div class="tools">
+            <!-- <span class="penTools" title="Open Tools">Tools</span> -->
+            <span class="tolL" title="New Codepen"><a target="_blank" href="https://pen.new">CodePen</a></span>
+            <span class="tolL" title="Private Chat"><a target="_blank" href="https://chat.rahul.eu.org">Private
+                    Chat</a></span>
+            <span class="tolL" title="New Chat"><a target="_blank" href="https://chat.openai.com">ChatGPT</a></span>
+        </div>
+        <div class="items">
+            <span class="account"><a target="_blank" title="account" href="https://accounts.google.com"><img
+                        src="unnamed.jpg" alt="avatar"></a></span>
+            <span class="tolL"><a href="https://gmail.com" title="Gmail" target="_blank">Gmail</a></span>
+            <span class="tolL"><a href="https://youtube.com" title="YouTube" target="_blank">YouTube</a></span>
+        </div>
+    </header>
+
+    <div class="titleH">
+        <h1 class="i0">G</h1>
+        <h1 class="i1">o</h1>
+        <h1 class="i2">o</h1>
+        <h1 class="i3">g</h1>
+        <h1 class="i4">l</h1>
+        <h1 class="i5">e</h1>
+    </div>
+
+    <section class="search">
+        <form action="https://www.google.com/search?q=" method="get">
+            <input autocomplete="off" title="enter query to search" type="text" class='squery'
+                placeholder="how to center a div?" name="query" required>
+            <button type="submit" title="search"><svg xmlns="https://www.w3.org/2000/svg" width="16" height="16"
+                    fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                    <path
+                        d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                </svg></button>
+            <div class="suggestions">
+                <div class="sgList">
+                    <ul>
+                        <li><a target='_blank' href="https://www.youtube.com/@CodeWithHarry">CodeWithHarry YouTube</a>
+                        </li>
+                        <li><a target='_blank' href="https://fireship.io">Fireship</a></li>
+                        <li><a target='_blank' href="https://flask.palletsprojects.com/">Flask Documentation</a></li>
+                        <li><a target='_blank' href="https://react.dev">React Documentation</a></li>
+                    </ul>
+                </div>
+            </div>
+        </form>
+    </section>
+
+    <section class="shortcut">
+        <ul>
+            <li><a href="https://stackoverflow.com" title="StackOverflow"><svg xmlns="https://www.w3.org/2000/svg" width="16" height="16"
+                        fill="currentColor" class="bi bi-stack-overflow" viewBox="0 0 16 16">
+                        <path d="M12.412 14.572V10.29h1.428V16H1v-5.71h1.428v4.282h9.984z" />
+                        <path
+                            d="M3.857 13.145h7.137v-1.428H3.857v1.428zM10.254 0 9.108.852l4.26 5.727 1.146-.852L10.254 0zm-3.54 3.377 5.484 4.567.913-1.097L7.627 2.28l-.914 1.097zM4.922 6.55l6.47 3.013.603-1.294-6.47-3.013-.603 1.294zm-.925 3.344 6.985 1.469.294-1.398-6.985-1.468-.294 1.397z" />
+                    </svg> StackOverflow</a></li>
+            <li><a href="https://github.com" title="Github"><svg xmlns="https://www.w3.org/2000/svg" width="16" height="16"
+                        fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                        <path
+                            d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+                    </svg> Github</a></li>
+            <li><a href="https://youtube.com" title="YouTube"><svg xmlns="https://www.w3.org/2000/svg" width="16" height="16"
+                        fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">
+                        <path
+                            d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z" />
+                    </svg>YouTube</a></li>
+            <li><a href="https://rahul.eu.org/cloud" title="Cloud Server"><svg xmlns="https://www.w3.org/2000/svg" width="16" height="16"
+                        fill="currentColor" class="bi bi-cloud" viewBox="0 0 16 16">
+                        <path
+                            d="M4.406 3.342A5.53 5.53 0 0 1 8 2c2.69 0 4.923 2 5.166 4.579C14.758 6.804 16 8.137 16 9.773 16 11.569 14.502 13 12.687 13H3.781C1.708 13 0 11.366 0 9.318c0-1.763 1.266-3.223 2.942-3.593.143-.863.698-1.723 1.464-2.383zm.653.757c-.757.653-1.153 1.44-1.153 2.056v.448l-.445.049C2.064 6.805 1 7.952 1 9.318 1 10.785 2.23 12 3.781 12h8.906C13.98 12 15 10.988 15 9.773c0-1.216-1.02-2.228-2.313-2.228h-.5v-.5C12.188 4.825 10.328 3 8 3a4.53 4.53 0 0 0-2.941 1.1z" />
+                    </svg>Cloud Server</a></li>
+            <li><a href="https://firebase.com" title="Firebase"><svg xmlns="https://www.w3.org/2000/svg" width="16" height="16"
+                        fill="currentColor" class="bi bi-fire" viewBox="0 0 16 16">
+                        <path
+                            d="M8 16c3.314 0 6-2 6-5.5 0-1.5-.5-4-2.5-6 .25 1.5-1.25 2-1.25 2C11 4 9 .5 6 0c.357 2 .5 4-2 6-1.25 1-2 2.729-2 4.5C2 14 4.686 16 8 16Zm0-1c-1.657 0-3-1-3-2.75 0-.75.25-2 1.25-3C6.125 10 7 10.5 7 10.5c-.375-1.25.5-3.25 2-3.5-.179 1-.25 2 1 3 .625.5 1 1.364 1 2.25C11 14 9.657 15 8 15Z" />
+                    </svg>Firebase</a></li>
+            <li><a href="https://web.whatsapp.com" title='WhatsApp'><svg xmlns="https://www.w3.org/2000/svg" width="16" height="16"
+                        fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+                        <path
+                            d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
+                    </svg>WhatsApp</a></li>
+        </ul>
+    </section>
+    <div class="cursor"></div>
+    <script>
+  const cursor = document.querySelector('.cursor');
+const qsearch = document.querySelector('.squery');
+document.addEventListener('mousemove',(e)=>{
+    let cliX = e.clientX;
+    let cliY = e.clientY;
+    cursor.style.top = cliY - 15 + 'px';
+    cursor.style.left = cliX - 20 + 'px';
+});
+
+const menu = document.querySelector('.menu'),
+closeMenu = document.querySelector('.outerMenu');
+
+window.addEventListener('contextmenu',(e)=>{
+    e.preventDefault();
+    menu.style.transform = 'scale(1)';
+    menu.style.opacity = '1';
+    menu.style.visibility = 'visible';
+    menu.style.top = e.clientY;
+    menu.style.left = e.clientX;
+    closeMenu.style.opacity = '1';
+    closeMenu.style.visibility = 'visible';
+});
+closeMenu.addEventListener('click',(e)=>{
+    menu.style.opacity = '0';
+    menu.style.visibility = 'hidden';
+    menu.style.transform = 'scale(0)';
+    menu.style.top = e.clientY;
+    menu.style.left = e.clientX;
+    closeMenu.style.opacity = '0';
+    closeMenu.style.visibility = 'hidden';
+})
+  </script>
+</body>
+
+</html>
